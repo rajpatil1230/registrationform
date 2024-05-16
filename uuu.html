@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width-device-width , intial-scale-1" >
+    <style>
+      html
+      {
+        font-size: 62.25%;
+      }
+        body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppons',sans-serif;
+    background-image:url("C:\Users\Admin\Desktop\puran\bk.webp");
+    box-sizing: border-box;
+    background:#ffeae0;
+}
+.header{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:hsl(0, 100%, 94%);
+   
+    
+}
+span h2{
+    color:#050505;
+    cursor: pointer;
+    font-size: 2.5rem;
+
+   
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #333;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+ul li a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.main-dev{
+    display: flex;
+    justify-content: space-between;
+}
+.main-dev .head{
+    font-size: 5rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+
+}
+.head button{
+    width:18rem;
+    height: 4.5rem;
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+}
+.head button:hover {
+    background-color: red;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.img img{
+    margin-right: 3rem;
+    width:57rem;
+    margin-top: 5rem;
+    transition: 0.5s ease;
+    border:solid black;
+    border-radius: 3rem;
+}
+
+@media(max-width:998px) 
+{
+  html
+  {
+    font-size: 55%;
+  } 
+  .main-dev
+  {
+    display: block;
+    text-align: center;
+  }
+ img
+ {
+    width: 50%;
+    vertical-align: middle;
+    margin-bottom: 30rem;
+}
+@media(max-width:760px)
+{
+  html
+  {
+    font-size: 45% ;
+  }
+ 
+}
+}
+        
+        
+        
+</style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <span><h2>SHIRPUR PIZZA</h2></span>
+        <ul>
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a> </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Sign In</a></li>
+        </ul> 
+    </div>
+    <div class="main-dev">
+        <div class="head">
+            <h1>delicious pizza.<br></h1>
+            <h3>you just love it !</h3>
+            <button>Order</button>
+
+        </div>
+        <div class="img">
+            <img src="pizza.jpg" >
+
+        </div>
+
+    </div>
+</body>
+</html>
